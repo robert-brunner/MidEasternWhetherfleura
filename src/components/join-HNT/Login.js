@@ -15,7 +15,7 @@ export const Login = () => {
             .then(foundUsers => {
                 if (foundUsers.length === 1) {
                     const user = foundUsers[0]
-                    localStorage.setItem("nutshell_user", JSON.stringify({
+                    localStorage.setItem("whetherfleura_user", JSON.stringify({
                         id: user.id
                     }))
 
@@ -32,9 +32,9 @@ export const Login = () => {
             <section>
                 <form className="form--login" onSubmit={handleLogin}>
                     <h1>Whetherfleura</h1>
-                    <h2>Please sign in</h2>
+                    <h2>Sign-In</h2>
                     <fieldset>
-                        <label htmlFor="inputEmail"> Email address </label>
+                        <label htmlFor="inputEmail"> Email </label>
                         <input type="email"
                             value={email}
                             onChange={evt => set(evt.target.value)}
@@ -44,7 +44,7 @@ export const Login = () => {
                     </fieldset>
                     <fieldset>
                         <button type="submit">
-                            Sign in
+                            Sign-In
                         </button>
                     </fieldset>
                 </form>

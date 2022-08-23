@@ -21,7 +21,7 @@ export const Register = (props) => {
             .then(createdUser => {
                 if (createdUser.hasOwnProperty("id")) {
                     //sessionStorage.setItem("activeUser", user.id)
-                    localStorage.setItem("nutshell_user", JSON.stringify({
+                    localStorage.setItem("whetherfleura_user", JSON.stringify({
                         id: createdUser.id
                     }))
 
@@ -55,21 +55,21 @@ export const Register = (props) => {
     return (
         <main style={{ textAlign: "center" }}>
             <form className="form--login" onSubmit={handleRegister}>
-                <h1 className="h3 mb-3 font-weight-normal">Please Register for Whetherfleura</h1>
+                <h1 className="h3 mb-3 font-weight-normal">MidEastern Whetherfleura</h1>
                 <fieldset>
-                    <label htmlFor="fullName"> Full Name </label>
+                    <label htmlFor="fullName"> Name: </label>
                     <input onChange={updateUser}
                            type="text" id="fullName" className="form-control"
-                           placeholder="Enter your name" required autoFocus />
+                           placeholder="name" required autoFocus />
                 </fieldset>
                 <fieldset>
-                    <label htmlFor="email"> Email address </label>
+                    <label htmlFor="email"> Email: </label>
                     <input onChange={updateUser}
                         type="email" id="email" className="form-control"
-                        placeholder="Email address" required />
+                        placeholder="email" required />
                 </fieldset>
                 <fieldset>
-                    <button type="submit"> Register </button>
+                    <button type="submit"> Join-the-Hunt </button>
                 </fieldset>
             </form>
         </main>
