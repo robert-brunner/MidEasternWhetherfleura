@@ -8,7 +8,7 @@ export const Authorized = ({ children }) => {
     }
     else {
         return <Navigate
-            to={`/login/${location.search}`}
+            to={`/login`}
             replace
             state={{ location }} />
     }
