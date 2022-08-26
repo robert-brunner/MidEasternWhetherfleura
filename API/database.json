@@ -32,15 +32,54 @@
       "email": "tigger@tig.com",
       "fullName": "Robert",
       "id": 5
+    },
+    {
+      "id": 6,
+      "fullName": "faketestuser",
+      "email": "testuser@gmail.com",
+      "userName": "",
+      "isAdmin": "no"
+    },
+    {
+      "id": 7,
+      "fullName": "Blah",
+      "email": "blah@blah.com",
+      "userName": "",
+      "isAdmin": "no"
     }
   ],
   "sightings": [
     {
       "id": 1,
       "userId": 1,
+      "sightingName": "",
       "log": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
       "logDate": "03-17-1986",
       "logLocation": "Huntington, WV"
+    },
+    {
+      "userId": 7,
+      "sightingName": "I am NOT nick",
+      "log": "Italy is NOT nick",
+      "logDate": "",
+      "logLocation": "No one is Nick",
+      "id": 6
+    },
+    {
+      "userId": 7,
+      "sightingName": "asd",
+      "log": "as",
+      "logDate": "",
+      "logLocation": "as",
+      "id": 7
+    },
+    {
+      "userId": 7,
+      "sightingName": "asd",
+      "log": "as",
+      "logDate": "",
+      "logLocation": "as",
+      "id": 8
     }
   ],
   "chat": [

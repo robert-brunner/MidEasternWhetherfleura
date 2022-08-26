@@ -1,29 +1,45 @@
-import { link } from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 
+export const Sightings = ({currentUser, getSightings, sightingObject}) => {
+    
+    const navigate = useNavigate()
+    const deleteButton = () => {
+        return <button onClick={() => {
+            fetch(`http://localhost:8088/Sightings/${sightingObject.id}`, {
+                    method: "DELETE"
+                })
+                .then(() => {
+                    getSightings()
+                })
+        }} className="sighting__delete">Delete</button>
+       
+    }
 
+    const editButton = () => {
+        return <button onClick={() => {
+            navigate(`Sightings/${sightingObject.id}/edit`)
+         
+        }}className = "sighting__edit">Edit</button>
+    }
 
+    return <section className ="sighting" key={`sighting--${sightingObject.id}`}>
+        <header>
+            {
+                currentUser.id
+                    ?`Sighting ${sightingObject.id}`
+                    : <a href={sightingObject.URL} target="_blank" > {sightingObject.sightingName}</a>
 
+            }
+        </header>
+        <section>{sightingObject.log}</section>
+        <footer>
+            {
+            editButton()
+            }
+            {
+            deleteButton()
+            }
+        </footer>
+    </section>
 
-
-export const Sightings = () => {
-
-
-    return (
-        <>
-        <h1 className="mainTitle">MidEastern Whetherfleura</h1>
-        <section className="mainContainer">
-            <div className ="contents">
-        
-        <p>
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-        </p>
-        
-        </div>
-              
-
-        </section>
-
-    </>
-
-    )
 }

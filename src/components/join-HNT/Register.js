@@ -4,8 +4,13 @@ import "./Login.css"
 
 export const Register = (props) => {
     const [user, setUser] = useState({
+        // email: "",
+        // fullName: ""
+        id: 0,
+        fullName: "",
         email: "",
-        fullName: ""
+        userName: "",
+        isAdmin: "no"
     })
     let navigate = useNavigate()
 

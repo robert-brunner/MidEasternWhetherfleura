@@ -2,7 +2,9 @@ import { Outlet, Route, Routes } from "react-router-dom"
 import { About } from "../about/about"
 import { HomePage } from "../HomePage"
 import { News } from "../news/news"
-import { Sightings } from "../sightings/sightings"
+import { SpotEdit } from "../spotting/spottingEdit"
+import { SpotForm } from "../spotting/spottingForm"
+import { SpotList } from "../spotting/spottingList"
 import { Store } from "../store/store"
 import { Survival } from "../survival-101/survival"
 
@@ -11,18 +13,31 @@ import { Survival } from "../survival-101/survival"
 export const ApplicationViews = () => {
 
     return <Routes>
-                <Route path="/" element={
-                   <HomePage/>
-                   
-                }/>
+        <Route path="/Spotting" element={
+            <>
+            <h1 className="mainTitle">Whetherfleura Sightings</h1>
+            <section className="mainContainer">
+                <div className ="">
+                    <h2>Add Your Sighting</h2>
+                        <SpotForm />
+                </div>
+                <div className ="spotList_container">
+                        <SpotList />
+                </div>
+                </section>
 
+                <Outlet />
+                </>
+        }/>
+                <Route path="/" element={<HomePage/>}/>
                 <Route path="/about" element={ <About /> } />
                 <Route path="/news" element={ <News /> } />
-                <Route path="/sightings" element={ <Sightings /> } />
+                {/* <Route path="/Spotting" element={<SpotForm/>} /> */}
+                <Route path="/Spotting" element={<SpotList/>} />
+                <Route path="/Spotting/:spotId/edit" element={ <SpotEdit /> } /> 
+                
                 <Route path="/store" element={ <Store /> } />
-                <Route path="/survival" element={ <Survival /> } />  
-                {/* <Route path = "article/create" element={<ArticleForm />} />  
-                <Route path="events/:eventId/edit" element={ <EventEdit /> } />            
-                <Route path = "article/:articleId/edit" element= {<ArticleEdit />} />      */}
+                <Route path="/survival" element={ <Survival /> } />
+               
     </Routes>
 }

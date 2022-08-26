@@ -24,6 +24,10 @@ export const HomePage = () => {
             </div>
             <div>
                 <button><Link to= "/Sightings">Sightings</Link></button>
+                {/* <Sightings/> */}
+            </div>
+            <div>
+                <button><Link to= "/Spotting">Spotting</Link></button>
             </div>
             <div>
                 <button><Link to= "/survival">Survival 101</Link></button>

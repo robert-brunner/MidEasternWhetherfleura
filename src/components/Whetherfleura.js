@@ -13,13 +13,14 @@ export const Whetherfleura = () => {
 
 		<Route path="*" element={
 			<Authorized>
-				
-		<NavBar /><br></br>
+				<>
+					<NavBar /><br></br>
 					<ApplicationViews />
-
+				</>
 			</Authorized>
 
 		} />
 	</Routes>
 }
 
+export default Whetherfleura
