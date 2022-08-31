@@ -94,6 +94,22 @@
       "logDate": "",
       "logLocation": "",
       "id": 12
+    },
+    {
+      "userId": 9,
+      "sightingName": "s",
+      "log": "s",
+      "logDate": "",
+      "logLocation": "ss",
+      "id": 13
+    },
+    {
+      "userId": 9,
+      "sightingName": "s",
+      "log": "s",
+      "logDate": "",
+      "logLocation": "ss",
+      "id": 17
     }
   ],
   "chat": [

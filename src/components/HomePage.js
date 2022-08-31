@@ -17,6 +17,7 @@ export const HomePage = () => {
                 Artist Depiction
             </div>
             
+            
             <div class="firefly"></div>
             <div class="firefly"></div>
             <div class="firefly"></div>

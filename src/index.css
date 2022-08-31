@@ -126,7 +126,22 @@ input, select, textarea{
   padding-right:0px;
   margin-top:-7px;
  }
- 
+:root h6{
+  
+  transform:translatex(0px) translatey(0px);
+  color:#b1d805;
+  font-size:32px;
+  text-shadow:rgb(12, 2, 2) 0px 0px 2px, rgb(26, 23, 11) 0px 0px 4px, rgb(45, 46, 43) 0px 0px 6px, rgb(5, 66, 5) 0px 0px 8px, rgb(31, 83, 48) 0px 0px 12px, rgb(50, 250, 0) 0px 0px 16px, rgb(255, 255, 255) 0px 0px 20px, rgb(4, 190, 35) 0px 0px 24px;
+  line-height:33.4px;
+}
+ :root h3 {
+  text-align:center;
+  transform:translatex(0px) translatey(0px);
+  color:#eff460;
+  font-size:15px;
+  text-shadow:rgb(12, 2, 2) 0px 0px 2px, rgb(26, 23, 11) 0px 0px 4px, rgb(69, 87, 3) 0px 0px 6px, rgb(11, 197, 57) 0px 0px 8px, rgb(31, 83, 48) 0px 0px 12px, rgb(20, 102, 61) 0px 0px 16px, rgb(88, 163, 1) 0px 0px 20px, rgb(238, 255, 4) 0px 0px 24px;
+  line-height:33.4px;
+ }
  /* Heading */
  .mainContainer > div > h2{
   text-align:center;
@@ -152,7 +167,9 @@ input, select, textarea{
   min-width:600px;
   min-height:40px;
  }
- 
+ :root p {
+  width:75%;
+ }
  /* Input */
  .spotForm div input[type=text]{
   min-width:990px !important;
@@ -195,6 +212,7 @@ input, select, textarea{
   padding-right:315px;
   padding-left:315px;
   transform:translatex(0px) translatey(-24px);
+  width: 75%;
  }
  /* Spot list container */
 #root .spotList_container{
@@ -209,7 +227,8 @@ input, select, textarea{
  .scroller {
    min-height:551px;
    width: 105%;
-  overflow:scroll;
+   
+ /* overflow:scroll;*/
 }
 
 /* Spot  edit */
@@ -275,4 +294,6 @@ input, select, textarea{
     rgba(163, 175, 1, 0.068) 0%, rgba(0, 0, 0, 0.95) 100%
   );
 }
+
+
 

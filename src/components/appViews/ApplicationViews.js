@@ -22,7 +22,7 @@ export const ApplicationViews = () => {
             <section className="mainContainer">
                 
                 <div className ="">
-                    <h2>Add Your Sighting</h2>
+                    <h2>Add Your Sighting</h2><br></br>
                         <SpotForm />
                 </div>
                 <div className="scroller">

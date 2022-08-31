@@ -43,7 +43,6 @@ return(
     <form className="spotForm">
         <fieldset>
             <div className="">
-        <h2 className="spotForm__title">Log New Sighting</h2>
             <h3 htmlFor="Log Name">Sighting Title:</h3>
                 <input
                 required autoFocus
