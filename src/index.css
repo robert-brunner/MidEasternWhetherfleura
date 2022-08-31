@@ -260,5 +260,19 @@ input, select, textarea{
   border-color:transparent;
  }
  
+:root {
+  --cursorXpos: 50vw;
+  --cursorYpos: 50vh;
+}
 
+:root::before{
+  content: '';
+  width: 100%;
+  height:100%;
+  position:fixed;
+  background:radial-gradient(
+    circle 15rem at var(--cursorXpos) var(--cursorYpos) ,
+    rgba(163, 175, 1, 0.068) 0%, rgba(0, 0, 0, 0.95) 100%
+  );
+}
 

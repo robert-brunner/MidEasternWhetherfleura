@@ -41,5 +41,16 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      function trackMouse(event){
+        document.documentElement.style.setProperty(
+          '--cursorXpos', `${event.clientX}px`
+        )
+        document.documentElement.style.setProperty(
+          '--cursorYpos', `${event.clientY}px`
+        )
+      }
+      document.addEventListener('mousemove',trackMouse)
+    </script>
   </body>
 </html>
