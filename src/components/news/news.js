@@ -8,7 +8,7 @@ export const News = () => {
 
     return (
         <>
-        <h1 className="mainTitle">MidEastern Whetherfleura</h1>
+        <h1 className="mainTitle">News</h1>
         <section className="mainContainer">
             <div className ="contents">
         
@@ -20,6 +20,21 @@ export const News = () => {
               
 
         </section>
+        <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
 
     </>
 

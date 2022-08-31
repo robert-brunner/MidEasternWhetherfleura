@@ -1,13 +1,264 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(138, 226, 6);
+  text-decoration: none
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mainTitle {
+  display:flex;
+  justify-content: center;
+  color:rgb(198, 253, 0)
 }
+.italicTXT {
+  font-style: italic;
+  z-index: auto;
+}
+
+input, select, textarea{
+  color: rgb(2, 0, 0);
+  font-size:21px;
+  font-weight: 700;
+  text-decoration: solid;
+}
+
+/* Navbar */
+
+.navbar{
+  justify-content: space-between;
+  display: flex;
+
+  opacity: 10;
+} 
+
+.contents {
+  font-size: 35px;
+}
+
+.button-container {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40vh;
+  overflow: hidden;
+  transition: 0.5s;
+  border: 0px solid rgba(255, 255, 255, 0.2);
+}
+
+.button-container button {
+  width: 85%;
+  height: 85%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 35px;
+  color:#eff460;
+  background: rgba(10, 1, 1, 0.658);
+  -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+  mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+  -webkit-mask-size: 2300% 100%;
+  mask-size: 2300% 100%;
+  animation: anim2 0.7s steps(22) forwards;
+  
+}
+
+.button-container button:hover {
+  animation: anim1 0.7s steps(22) forwards;
+}
+
+.mask {
+  position: absolute;
+  text-align: center;
+  width: 101%;
+  font-weight: lighter;
+  font-size: 40px;
+  margin-top: 40vh;
+  overflow: hidden;
+}
+
+@keyframes anim1 {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+
+@keyframes anim2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+  to {
+    mask-position: 0 0;
+    -webkit-mask-position: 0 0;
+  }
+}
+
+/* List */
+#root ul{
+  transform:translatex(-5px) translatey(-278px);
+ }
+ 
+ /* Heading */
+ #root h1{
+  transform:translatex(-6px) translatey(-532px);
+  font-size:46px;
+  text-align:center;
+  text-shadow:rgb(0, 0, 0) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px, rgb(0, 0, 0) 1px 0px 1px, rgb(0, 0, 0) -1px 0px 1px;
+  letter-spacing:1.8px;
+ }
+ 
+ /* Fieldset */
+.mainContainer div fieldset{
+  text-align:center;
+  text-transform:uppercase;
+  font-style:normal;
+  text-shadow:rgb(0, 0, 0) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px, rgb(0, 0, 0) 1px 0px 1px, rgb(0, 0, 0) -1px 0px 1px;
+  font-size:15px;
+  min-height:264px;
+  padding-top:0px;
+  padding-bottom:0px;
+  padding-right:0px;
+  margin-top:-7px;
+ }
+ 
+ /* Heading */
+ .mainContainer > div > h2{
+  text-align:center;
+  transform:translatex(0px) translatey(0px);
+  color:#eff460;
+  font-size:35px;
+  text-shadow:rgb(12, 2, 2) 0px 0px 2px, rgb(26, 23, 11) 0px 0px 4px, rgb(69, 87, 3) 0px 0px 6px, rgb(11, 197, 57) 0px 0px 8px, rgb(31, 83, 48) 0px 0px 12px, rgb(20, 102, 61) 0px 0px 16px, rgb(88, 163, 1) 0px 0px 20px, rgb(238, 255, 4) 0px 0px 24px;
+  line-height:33.4px;
+ }
+ 
+ /* Main container */
+ #root .mainContainer{
+  transform:translatex(0px) translatey(-261px);
+ }
+ 
+ #root div fieldset{
+  position:relative;
+  top:12px;
+ }
+ 
+ /* Input */
+ .spotForm .form-group input[type=text]{
+  min-width:600px;
+  min-height:40px;
+ }
+ 
+ /* Input */
+ .spotForm div input[type=text]{
+  min-width:990px !important;
+  min-height:49px !important;
+  box-shadow:0px 0px 15px 3px #a8d868 inset;
+  font-size: larger;
+  border-width:0px;
+  visibility:visible;
+  opacity:0.78;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  border-bottom-left-radius:2px;
+  border-bottom-right-radius:2px;
+  background-color:#bababa;
+ }
+
+ /* Button */
+.spotForm fieldset .btn-primary{
+  box-shadow:-3px 1px 20px 3px #0c0d0b inset;
+  position:relative;
+  top:4px;
+  min-width:69px;
+  width:102px;
+  height:26px;
+  min-height:17px;
+  color:#152107;
+  font-size:19px;
+  text-decoration:none;
+  font-weight:700;
+  text-shadow:rgb(255, 255, 255) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px;
+  letter-spacing:2.5px;
+  text-transform:uppercase;
+  filter: invert(0.13) sepia(0.04);
+ }
+ 
+ /* Spot list container */
+#root .spotList_container{
+  text-align:justify;
+  font-size:24px;
+  padding-right:315px;
+  padding-left:315px;
+  transform:translatex(0px) translatey(-24px);
+ }
+ /* Spot list container */
+#root .spotList_container{
+  transform:translatex(0px) translatey(12px);
+ }
+ 
+ /* Fieldset */
+ .mainContainer div fieldset{
+  border-color:transparent
+ }
+ /*Mini ScrollBar*/
+ .scroller {
+   min-height:551px;
+   width: 105%;
+  overflow:scroll;
+}
+
+/* Spot  edit */
+.sightings footer .spot__edit{
+  box-shadow:-3px 1px 20px 3px #0c0d0b inset;
+  position:relative;
+  top:4px;
+  min-width:69px;
+  width:102px;
+  height:26px;
+  min-height:17px;
+  color:#152107;
+  font-size:19px;
+  text-decoration:none;
+  font-weight:700;
+  text-shadow:rgb(255, 255, 255) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px;
+  letter-spacing:2.5px;
+  text-transform:uppercase;
+  filter: invert(0.13) sepia(0.04);
+  
+ }
+ 
+ /* Spot  Unknown */
+ .sightings footer .spot__delete{
+  box-shadow:-3px 1px 20px 3px #0c0d0b inset;
+  position:relative;
+  top:4px;
+  min-width:69px;
+  width:102px;
+  height:26px;
+  min-height:17px;
+  color:#152107;
+  font-size:19px;
+  text-decoration:none;
+  font-weight:700;
+  text-shadow:rgb(255, 255, 255) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px;
+  letter-spacing:2.5px;
+  text-transform:uppercase;
+  filter: invert(0.13) sepia(0.04);
+ }
+ 
+ /* Fieldset */
+#root .spotForm fieldset{
+  transform:translatex(0px) translatey(0px);
+  
+  position:static;
+  text-align:center;
+  border-color:transparent;
+ }
+ 
+
+

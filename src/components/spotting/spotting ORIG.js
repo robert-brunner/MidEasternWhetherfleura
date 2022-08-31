@@ -25,6 +25,7 @@ export const Spot = ({currentUser, getSpots, SpottedObject}) =>{
     }
 
     return <section className ="spotting" key={`spotting--${SpottedObject.id}`}>
+        
         <header>
             {
                 currentUser.userId
@@ -44,22 +45,6 @@ export const Spot = ({currentUser, getSpots, SpottedObject}) =>{
             deleteButton()
             }
         </footer>
-        <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            
     </section>
 
 }

@@ -46,6 +46,20 @@
       "email": "blah@blah.com",
       "userName": "",
       "isAdmin": "no"
+    },
+    {
+      "id": 8,
+      "fullName": "Darvin",
+      "email": "dmorgans@gmail.com",
+      "userName": "",
+      "isAdmin": "no"
+    },
+    {
+      "id": 9,
+      "fullName": "Sarah",
+      "email": "trisarahtops@gmail.com",
+      "userName": "",
+      "isAdmin": "no"
     }
   ],
   "sightings": [
@@ -58,28 +72,28 @@
       "logLocation": "Huntington, WV"
     },
     {
-      "userId": 7,
-      "sightingName": "I am NOT nick",
-      "log": "Italy is NOT nick",
+      "userId": 1,
+      "sightingName": "For text boxes",
+      "log": "Call a class using bootstrap",
       "logDate": "",
-      "logLocation": "No one is Nick",
-      "id": 6
+      "logLocation": "",
+      "id": 9
     },
     {
-      "userId": 7,
+      "userId": 9,
       "sightingName": "asd",
-      "log": "as",
+      "log": "asds",
       "logDate": "",
-      "logLocation": "as",
-      "id": 7
+      "logLocation": "asda",
+      "id": 11
     },
     {
-      "userId": 7,
-      "sightingName": "asd",
-      "log": "as",
+      "userId": 9,
+      "sightingName": "Create a container on the same page and call the container module on the page code.",
+      "log": "Fix for refresh",
       "logDate": "",
-      "logLocation": "as",
-      "id": 8
+      "logLocation": "",
+      "id": 12
     }
   ],
   "chat": [

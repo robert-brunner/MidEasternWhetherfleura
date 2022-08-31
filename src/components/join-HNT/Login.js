@@ -32,7 +32,7 @@ export const Login = () => {
             <section>
                 <form className="form--login" onSubmit={handleLogin}>
                     <h1>Whetherfleura</h1>
-                    <h2>Sign-In</h2>
+                    <h2>Join-the-Hunt</h2>
                     <fieldset>
                         <label htmlFor="inputEmail"> Email </label>
                         <input type="email"
@@ -44,7 +44,7 @@ export const Login = () => {
                     </fieldset>
                     <fieldset>
                         <button type="submit">
-                            Sign-In
+                            Join-the-Hunt
                         </button>
                     </fieldset>
                 </form>

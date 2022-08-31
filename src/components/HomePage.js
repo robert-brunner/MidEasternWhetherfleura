@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import Main from "./Main"
+import './SassAttempt/background.scss'
 
 
 
@@ -11,37 +13,26 @@ export const HomePage = () => {
 
         <h1 className="mainTitle">MidEastern Whetherfleura</h1>
         <section className="mainContainer">
-            <div className ="contents">
-                <button><Link to="/About">About</Link></button>
-                {/* <About /> */}
-            </div>
-            {/* <div>
-                <button>Join-the-Hunt</button>
-
-            </div> */}
-            <div>
+            <div className= "italicTXT">
                 Artist Depiction
             </div>
-            <div>
-                <button><Link to= "/Sightings">Sightings</Link></button>
-                {/* <Sightings/> */}
-            </div>
-            <div>
-                <button><Link to= "/Spotting">Spotting</Link></button>
-            </div>
-            <div>
-                <button><Link to= "/survival">Survival 101</Link></button>
-            </div>
-            {/* <div>
-                <h2>Stretch Goal</h2>
-            </div> */}
-            <div>
-                <button><Link to= "/news">In-the-News</Link></button>
-            </div>
-            <div>
-                <button><Link to= "/store">Store</Link></button>
-                {/* <ChatList /> */}
-            </div>
+            
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+           
             
 
         </section>

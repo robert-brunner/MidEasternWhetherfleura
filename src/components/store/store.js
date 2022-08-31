@@ -7,7 +7,7 @@ export const Store = () => {
 
     return (
         <>
-        <h1 className="mainTitle">MidEastern Whetherfleura</h1>
+        <h1 className="mainTitle">Store</h1>
         <section className="mainContainer">
             <div className ="contents">
         
@@ -16,6 +16,21 @@ export const Store = () => {
         </p>
         
         </div>
+        <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
               
 
         </section>

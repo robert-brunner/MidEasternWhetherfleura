@@ -1,6 +1,7 @@
 import { Outlet, Route, Routes } from "react-router-dom"
 import { About } from "../about/about"
 import { HomePage } from "../HomePage"
+import { NavBar } from "../nav/NavBar"
 import { News } from "../news/news"
 import { SpotEdit } from "../spotting/spottingEdit"
 import { SpotForm } from "../spotting/spottingForm"
@@ -10,19 +11,24 @@ import { Survival } from "../survival-101/survival"
 
 
 
+
 export const ApplicationViews = () => {
 
     return <Routes>
         <Route path="/Spotting" element={
             <>
+            
             <h1 className="mainTitle">Whetherfleura Sightings</h1>
             <section className="mainContainer">
+                
                 <div className ="">
                     <h2>Add Your Sighting</h2>
                         <SpotForm />
                 </div>
+                <div className="scroller">
                 <div className ="spotList_container">
                         <SpotList />
+                </div>
                 </div>
                 </section>
 
