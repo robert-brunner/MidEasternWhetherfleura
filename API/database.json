@@ -97,19 +97,19 @@
     },
     {
       "userId": 9,
-      "sightingName": "s",
-      "log": "s",
+      "sightingName": "I am a flower",
+      "log": "I am a flower",
       "logDate": "",
-      "logLocation": "ss",
+      "logLocation": "I am a flower",
       "id": 13
     },
     {
       "userId": 9,
-      "sightingName": "s",
-      "log": "s",
+      "sightingName": "a",
+      "log": "a",
       "logDate": "",
-      "logLocation": "ss",
-      "id": 17
+      "logLocation": "a",
+      "id": 14
     }
   ],
   "chat": [

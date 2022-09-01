@@ -8,11 +8,14 @@ import { SpotForm } from "../spotting/spottingForm"
 import { SpotList } from "../spotting/spottingList"
 import { Store } from "../store/store"
 import { Survival } from "../survival-101/survival"
+import { useState } from "react";
 
 
 
 
 export const ApplicationViews = () => {
+    
+    const [refresh, setRefresh] = useState ()
 
     return <Routes>
         <Route path="/Spotting" element={
@@ -23,11 +26,11 @@ export const ApplicationViews = () => {
                 
                 <div className ="">
                     <h2>Add Your Sighting</h2><br></br>
-                        <SpotForm />
+                        <SpotForm  setRefreshProps={setRefresh}/>
                 </div>
                 <div className="scroller">
                 <div className ="spotList_container">
-                        <SpotList />
+                        <SpotList refreshProps={refresh}/>
                 </div>
                 </div>
                 </section>
@@ -39,7 +42,7 @@ export const ApplicationViews = () => {
                 <Route path="/about" element={ <About /> } />
                 <Route path="/news" element={ <News /> } />
                 {/* <Route path="/Spotting" element={<SpotForm/>} /> */}
-                <Route path="/Spotting" element={<SpotList/>} />
+                {/* <Route path="/Spotting" element={<SpotList />} /> */}
                 <Route path="/Spotting/:spotId/edit" element={ <SpotEdit /> } /> 
                 
                 <Route path="/store" element={ <Store /> } />

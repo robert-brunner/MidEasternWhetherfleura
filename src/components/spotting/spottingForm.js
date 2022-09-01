@@ -2,7 +2,7 @@ import { useState } from "react";
 import {useNavigate} from "react-router-dom"
 
 
-export const SpotForm = () => {
+export const SpotForm = ({setRefreshProps}) => {
     const [sight, update] = useState({
         sightingName: "",
         log: "",
@@ -31,15 +31,21 @@ const saveButtonClick = (e) => {
         body:JSON.stringify(spottingToSendToAPI)
     })
     .then(response => response.json())
-    .then(()=>{navigate("/Spotting")
+    .then(setRefreshProps)
+    .then(update({
+        sightingName: "",
+        log: "",
+        logDate: "",
+        logLocation: ""
+    }))  
     // fetch (`http://localhost:8088/sightings?_expand=user`)
     // .then(response => response.json())
     // .then(messageArray => refresh())
-    })  
     //I want to make reddit experience outside of the container that this is currently resting in. The above code is on the right track but a new js file and container need to be made and called. 
     // {navigate("/")}
 }
 return(
+    
     <form className="spotForm">
         <fieldset>
             <div className="">

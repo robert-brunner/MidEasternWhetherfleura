@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Spot } from "./spotting";
 
 
-export const SpotList =() => {
+export const SpotList =({refreshProps}) => {
     const [spots, setSpots] = useState ([])
     // const [filteredSpots, setFiltered] =useState ([])
     const navigate = useNavigate()
@@ -27,22 +27,11 @@ useEffect(
         .then((spotArray)=> {
             setSpots(spotArray)
         })
-    },[]
+    },[refreshProps]
 )
-// useEffect(
-//     ()=> {
-//         const mySpots = spots.filter(spots => spots.userId === whetherfleuraUserObject.id)
-//             setFiltered(mySpots)
-//     },
-//     [spots]
-// )
-//below is button that may be used later to make module appear on edit needs...
-return <>
-{/* {
-    <button onClick={() => navigate("/Spotting")}>New Article</button>
-        
 
-} */}
+return <>
+
 
 
 <article className="sightings">
