@@ -60,6 +60,14 @@
       "email": "trisarahtops@gmail.com",
       "userName": "",
       "isAdmin": "no"
+    },
+    {
+      "id": 10,
+      "fullName": "asdw",
+      "email": "",
+      "userName": "",
+      "isAdmin": "no",
+      "--email": "sdwasd"
     }
   ],
   "sightings": [
@@ -94,22 +102,6 @@
       "logDate": "",
       "logLocation": "",
       "id": 12
-    },
-    {
-      "userId": 9,
-      "sightingName": "I am a flower",
-      "log": "I am a flower",
-      "logDate": "",
-      "logLocation": "I am a flower",
-      "id": 13
-    },
-    {
-      "userId": 9,
-      "sightingName": "a",
-      "log": "a",
-      "logDate": "",
-      "logLocation": "a",
-      "id": 14
     }
   ],
   "chat": [

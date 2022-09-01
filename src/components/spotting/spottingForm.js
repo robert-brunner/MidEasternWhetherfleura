@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {useNavigate} from "react-router-dom"
 
-
+//set refresh props
 export const SpotForm = ({setRefreshProps}) => {
     const [sight, update] = useState({
         sightingName: "",

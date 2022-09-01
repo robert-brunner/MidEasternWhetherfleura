@@ -1,6 +1,4 @@
 *{
-  margin:0;
-  padding: 0;
   font-family: 'Courier New', Courier, monospace;
   color: rgb(138, 226, 6);
   text-decoration: none
@@ -13,14 +11,41 @@
 }
 .italicTXT {
   font-style: italic;
-  z-index: auto;
 }
+
+/* Log */
+.sightings .spotting .sLog{
+  font-size:23px;
+  text-shadow:rgba(0, 0, 0, 0.3) 0px 1px 1px;
+  color:#f0fb17;
+  font-style:italic;
+ }
+/*paragraph*/
+:root p {
+  font-size:23px;
+  text-shadow:rgba(0, 0, 0, 0.3) 0px 1px 1px;
+  color:#f0fb17;
+  position:relative;
+  left:304px;
+  
+}
+ /* Location */
+.sightings .spotting .sLocation{
+  margin-bottom:15px;
+ }
+ 
+ /* Heading */
+ .sightings .spotting h6{
+  margin-top:14px;
+ }
+ 
 
 input, select, textarea{
   color: rgb(2, 0, 0);
   font-size:21px;
   font-weight: 700;
   text-decoration: solid;
+  box-shadow:0px 0px 10px 1px #228504 inset;
 }
 
 /* Navbar */
@@ -157,10 +182,7 @@ input, select, textarea{
   transform:translatex(0px) translatey(-261px);
  }
  
- #root div fieldset{
-  position:relative;
-  top:12px;
- }
+
  
  /* Input */
  .spotForm .form-group input[type=text]{
@@ -295,5 +317,93 @@ input, select, textarea{
   );
 }
 
+/*root container old*/
+/*
+  color:#b1d805;
+  font-size:32px;
+  text-shadow:rgb(12, 2, 2) 0px 0px 2px, rgb(26, 23, 11) 0px 0px 4px, rgb(45, 46, 43) 0px 0px 6px, rgb(5, 66, 5) 0px 0px 8px, rgb(31, 83, 48) 0px 0px 12px, rgb(50, 250, 0) 0px 0px 16px, rgb(255, 255, 255) 0px 0px 20px, rgb(4, 190, 35) 0px 0px 24px;
+  line-height:33.4px;
+
+*/
 
 
+
+/* Container  login */
+.container--login{
+  display:inline-block, center;
+  border-color:transparent ;
+  font-size:20px;
+  position:relative;
+
+}
+/* Container  Form Edits */
+
+ /* Link */
+ #root .link--register a{
+  display:inline-block;
+  height:69px;
+
+  font-size:20px;
+  position:relative;
+  bottom:-21px;
+  right: -86px;
+ }
+ 
+
+ 
+ 
+ /* Label */
+ .form--login fieldset label{
+  font-size:25px;
+ }
+ 
+ /* Button */
+ .form--login fieldset button{
+  box-shadow:-3px 1px 20px 3px #0c0d0b inset;
+  position:relative;
+  color:#152107;
+  font-size:19px;
+  text-decoration:none;
+  font-weight:700;
+  text-shadow:rgb(255, 255, 255) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px;
+  letter-spacing:2.5px;
+  filter: invert(0.13) sepia(0.04);
+  right:-136px;
+  bottom:-12px;
+ }
+ /*Login Screen*/
+.loginH1{
+  color:#b1d805;
+  font-size:32px;
+  text-shadow:rgb(12, 2, 2) 0px 0px 2px, rgb(26, 23, 11) 0px 0px 4px, rgb(45, 46, 43) 0px 0px 6px, rgb(5, 66, 5) 0px 0px 8px, rgb(31, 83, 48) 0px 0px 12px, rgb(50, 250, 0) 0px 0px 16px, rgb(255, 255, 255) 0px 0px 20px, rgb(4, 190, 35) 0px 0px 24px;
+}
+ /* Input */
+ .form--login fieldset input[type=email]{
+  position:relative;
+  align-items: center;
+  box-shadow:0px 0px 10px 1px #228504 inset;
+ }
+ 
+ .LoginTitle{
+  text-align: center;
+  transform:translatex(0%) translatey(500%);
+  color:#eff460;
+  font-size:35px;
+  text-shadow:rgb(12, 2, 2) 0px 0px 2px, rgb(26, 23, 11) 0px 0px 4px, rgb(69, 87, 3) 0px 0px 6px, rgb(11, 197, 57) 0px 0px 8px, rgb(31, 83, 48) 0px 0px 12px, rgb(20, 102, 61) 0px 0px 16px, rgb(88, 163, 1) 0px 0px 20px, rgb(238, 255, 4) 0px 0px 24px;
+  line-height:33.4px;
+ }
+
+  /* Link */
+ .link--register a{
+    display:inline-block;
+    height:69px;
+  
+    font-size:20px;
+    position:relative;
+    bottom:-21px;
+    right: -86px;
+   }
+
+ .section fieldset{
+  border-color: transparent
+ }

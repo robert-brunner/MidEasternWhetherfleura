@@ -30,11 +30,11 @@ export const Login = () => {
     return (
         <main className="container--login">
             <section>
+                    <h2 className="LoginTitle">Join-the-Hunt</h2>
+            <h1 className="LoginH1">Whetherfleura</h1>
                 <form className="form--login" onSubmit={handleLogin}>
-                    <h1>Whetherfleura</h1>
-                    <h2>Join-the-Hunt</h2>
                     <fieldset>
-                        <label htmlFor="inputEmail"> Email </label>
+                        <label htmlFor="inputEmail"></label>
                         <input type="email"
                             value={email}
                             onChange={evt => set(evt.target.value)}
@@ -44,7 +44,7 @@ export const Login = () => {
                     </fieldset>
                     <fieldset>
                         <button type="submit">
-                            Join-the-Hunt
+                            Submit
                         </button>
                     </fieldset>
                 </form>

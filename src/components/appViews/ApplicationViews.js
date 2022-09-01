@@ -14,7 +14,7 @@ import { useState } from "react";
 
 
 export const ApplicationViews = () => {
-    
+    //refresh button below and line 30
     const [refresh, setRefresh] = useState ()
 
     return <Routes>
@@ -25,6 +25,7 @@ export const ApplicationViews = () => {
             <section className="mainContainer">
                 
                 <div className ="">
+                
                     <h2>Add Your Sighting</h2><br></br>
                         <SpotForm  setRefreshProps={setRefresh}/>
                 </div>
