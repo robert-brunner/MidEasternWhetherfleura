@@ -1,30 +1,29 @@
 import { Link } from "react-router-dom"
 import Main from "./Main"
 import './SassAttempt/background.scss'
-import '../components/SlideShow/styles.css'
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 
 
 
-// const buttons = document.querySelectorAll("[data-carousel-button]")
+const buttons = document.querySelectorAll("[data-carousel-button]")
 
-// buttons.forEach(button => {
-//   button.addEventListener("click", () => {
-//     const offset = button.dataset.carouselButton === "next" ? 1 : -1
-//     const slides = button
-//       .closest("[data-carousel]")
-//       .querySelector("[data-slides]")
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    const offset = button.dataset.carouselButton === "next" ? 1 : -1
+    const slides = button
+      .closest("[data-carousel]")
+      .querySelector("[data-slides]")
 
-//     const activeSlide = slides.querySelector("[data-active]")
-//     let newIndex = [...slides.children].indexOf(activeSlide) + offset
-//     if (newIndex < 0) newIndex = slides.children.length - 1
-//     if (newIndex >= slides.children.length) newIndex = 0
+    const activeSlide = slides.querySelector("[data-active]")
+    let newIndex = [...slides.children].indexOf(activeSlide) + offset
+    if (newIndex < 0) newIndex = slides.children.length - 1
+    if (newIndex >= slides.children.length) newIndex = 0
 
-//     slides.children[newIndex].dataset.active = true
-//     delete activeSlide.dataset.active
-//   })
-// })
+    slides.children[newIndex].dataset.active = true
+    delete activeSlide.dataset.active
+  })
+})
 
 export const HomePage = () => {
 
@@ -42,18 +41,18 @@ export const HomePage = () => {
             
             
             <div class="firefly"></div>
+            <div class="firefly">cohort 6</div>
             <div class="firefly"></div>
             <div class="firefly"></div>
             <div class="firefly"></div>
+            <div class="firefly">Tommy Spurlock</div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly">Jordan Castletoe</div>
             <div class="firefly"></div>
             <div class="firefly"></div>
             <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
+            <div class="firefly">Sarah Brookes</div>
             <div class="firefly"></div>
             <div class="firefly"></div>
            
