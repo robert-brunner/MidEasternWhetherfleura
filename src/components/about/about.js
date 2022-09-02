@@ -13,7 +13,6 @@ export const About = () => {
         <section className="mainContainer">
             <div className ="contents">
 
-        <h1 className="mainTitle">About</h1>
         <p>
             Not much is known about the Midwestern Whetherfleura.  What it looks like and how it lives are mysteries to us.  All that is known for certain is it's insatiable craving for canned soup; to which it's restraint knows no bounds...
 
