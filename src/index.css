@@ -27,6 +27,7 @@
   color:#f0fb17;
   position:relative;
   left:304px;
+  width:75%;
   
 }
  /* Location */
@@ -146,9 +147,6 @@ input, select, textarea{
   text-shadow:rgb(0, 0, 0) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px, rgb(0, 0, 0) 1px 0px 1px, rgb(0, 0, 0) -1px 0px 1px;
   font-size:15px;
   min-height:264px;
-  padding-top:0px;
-  padding-bottom:0px;
-  padding-right:0px;
   margin-top:-7px;
  }
 :root h6{
@@ -189,9 +187,7 @@ input, select, textarea{
   min-width:600px;
   min-height:40px;
  }
- :root p {
-  width:75%;
- }
+
  /* Input */
  .spotForm div input[type=text]{
   min-width:990px !important;
@@ -334,12 +330,34 @@ input, select, textarea{
   border-color:transparent ;
   font-size:20px;
   position:relative;
+  box-sizing: 50% !important;
 
 }
+
+/* Input */
+.Lform--login fieldset input[type=email]{
+  transform:translatex(1116px) translatey(53px);
+ }
+ 
+ /* Link */
+.Llink--register a{
+  transform:translatex(1081px) translatey(125px);
+ }
+ 
+ /* Button */
+ .Lform--login fieldset button{
+  transform:translatex(1061px) translatey(85px);
+ }
+ 
+ /* Fieldset */
+ #root section fieldset{
+  border-style:none;
+ }
+ 
 /* Container  Form Edits */
 
  /* Link */
- #root .link--register a{
+.Llink--register a{
   display:inline-block;
   height:69px;
 
@@ -353,12 +371,12 @@ input, select, textarea{
  
  
  /* Label */
- .form--login fieldset label{
+ .Lform--login fieldset label{
   font-size:25px;
  }
  
  /* Button */
- .form--login fieldset button{
+ .Lform--login fieldset button{
   box-shadow:-3px 1px 20px 3px #0c0d0b inset;
   position:relative;
   color:#152107;
@@ -372,13 +390,13 @@ input, select, textarea{
   bottom:-12px;
  }
  /*Login Screen*/
-.loginH1{
+.LoginH1{
   color:#b1d805;
   font-size:32px;
   text-shadow:rgb(12, 2, 2) 0px 0px 2px, rgb(26, 23, 11) 0px 0px 4px, rgb(45, 46, 43) 0px 0px 6px, rgb(5, 66, 5) 0px 0px 8px, rgb(31, 83, 48) 0px 0px 12px, rgb(50, 250, 0) 0px 0px 16px, rgb(255, 255, 255) 0px 0px 20px, rgb(4, 190, 35) 0px 0px 24px;
 }
  /* Input */
- .form--login fieldset input[type=email]{
+ .Lform--login fieldset input[type=email]{
   position:relative;
   align-items: center;
   box-shadow:0px 0px 10px 1px #228504 inset;
@@ -386,24 +404,19 @@ input, select, textarea{
  
  .LoginTitle{
   text-align: center;
-  transform:translatex(0%) translatey(500%);
+  transform:translatex(0%) translatey(200%);
   color:#eff460;
   font-size:35px;
   text-shadow:rgb(12, 2, 2) 0px 0px 2px, rgb(26, 23, 11) 0px 0px 4px, rgb(69, 87, 3) 0px 0px 6px, rgb(11, 197, 57) 0px 0px 8px, rgb(31, 83, 48) 0px 0px 12px, rgb(20, 102, 61) 0px 0px 16px, rgb(88, 163, 1) 0px 0px 20px, rgb(238, 255, 4) 0px 0px 24px;
   line-height:33.4px;
  }
 
-  /* Link */
- .link--register a{
-    display:inline-block;
-    height:69px;
-  
-    font-size:20px;
-    position:relative;
-    bottom:-21px;
-    right: -86px;
-   }
+
 
  .section fieldset{
   border-color: transparent
  }
+
+ /* SignUp  */
+
+

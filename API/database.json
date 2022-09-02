@@ -86,22 +86,6 @@
       "logDate": "",
       "logLocation": "",
       "id": 9
-    },
-    {
-      "userId": 9,
-      "sightingName": "asd",
-      "log": "asds",
-      "logDate": "",
-      "logLocation": "asda",
-      "id": 11
-    },
-    {
-      "userId": 9,
-      "sightingName": "Create a container on the same page and call the container module on the page code.",
-      "log": "Fix for refresh",
-      "logDate": "",
-      "logLocation": "",
-      "id": 12
     }
   ],
   "chat": [

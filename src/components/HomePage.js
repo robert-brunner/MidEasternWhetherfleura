@@ -14,7 +14,7 @@ export const HomePage = () => {
         <h1 className="mainTitle">MidEastern Whetherfleura</h1>
         <section className="mainContainer">
             <div className= "italicTXT">
-                Artist Depiction
+            
             </div>
             
             
