@@ -86,7 +86,7 @@ return(
                 required autoFocus
                 type="text"
                 className="form-control"
-                placeholder="Brief description of sighting"
+                placeholder="Location"
                 value={sight.logLocation}
                 onChange={
                     (evt)=> {

@@ -15,6 +15,8 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--Custom Image Slider-->
+    <link rel="stylesheet" href="styles.css"></link>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -27,6 +29,8 @@
     <title>MidEastern WhetherFleura</title>
   </head>
   <body>
+    <!--Custom Image Slider-->
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
       <!-- <div className='main'></div> -->
@@ -52,5 +56,22 @@
       }
       document.addEventListener('mousemove',trackMouse)
     </script>
+        <section aria-label="Newest Photos">
+          <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+          <ul data-slides>
+          <li class="slide" data-active>
+          <img src="https://i2-prod.dailystar.co.uk/incoming/article19184540.ece/ALTERNATES/s615b/creepy-video-1082871" alt="Nature Image #1"/>
+          </li>
+          <li class="slide">
+          <img src="https://tinyurl.com/5e94x2na" alt="Nature Image #2"/>
+          </li>
+          <li class="slide">
+          <img src="https://cdn.images.express.co.uk/img/dynamic/80/750x445/1233361.jpg" alt="Nature Image #3"/>
+          </li>
+          </ul>
+          </div>
+    </section>
   </body>
 </html>

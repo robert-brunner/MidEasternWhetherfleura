@@ -74,18 +74,18 @@
     {
       "id": 1,
       "userId": 1,
-      "sightingName": "",
-      "log": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "sightingName": "The Soup Thief",
+      "log": "I saw it. I know I did. People say I was overreacting.  They say it was a cat or raccoon. Really?! What kind of creature would you find in a rural grocery store lot with appendages that could clasp a can like that?  I saw it slink away from the delivery truck as the moonlight danced on it's slender body.  There seemed to be a strange wispiness as though it's skin was made of shimmery silver scales that sprouted thin strands of long silk black hair.  I swear it! ",
       "logDate": "03-17-1986",
-      "logLocation": "Huntington, WV"
+      "logLocation": "Bear Lake, ID"
     },
     {
-      "userId": 1,
-      "sightingName": "For text boxes",
-      "log": "Call a class using bootstrap",
+      "userId": 2,
+      "sightingName": "Reminds me of a Kangaroo...",
+      "log": "It sat up on it's haunches.  'Looked like it had a pouch.  As if it had some sort of front facing fannie pack, it reached torward it's chest and grabbed a can of soup from somewhere within.  It commenced to knaw on it.  Such a ponderous creature. Why such a hankerin for soup?",
       "logDate": "",
-      "logLocation": "",
-      "id": 9
+      "logLocation": "Bout 30 miles northwest of mile marker 11, past the berry patch on the right.",
+      "id": 10
     }
   ],
   "chat": [

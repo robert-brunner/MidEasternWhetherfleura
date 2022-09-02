@@ -34,7 +34,7 @@ export const Spot = ({currentUser, getSpots, SpottedObject}) =>{
             }
         </header>
         <h6 className="sTitle">{SpottedObject.sightingName}</h6>
-        <section className="sLog">Log: {SpottedObject.log}</section>
+        <section className="sLog"> {SpottedObject.log}</section>
         <section className="sLocation">Location: {SpottedObject.logLocation}</section>
         <footer>
             {
