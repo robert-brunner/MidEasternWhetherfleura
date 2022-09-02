@@ -331,9 +331,13 @@ input, select, textarea{
   font-size:20px;
   position:relative;
   box-sizing: 50% !important;
+  z-index: 2;
 
 }
-
+/*trying to make my carousel hidden on all pages except home*/
+#login .carousel {
+visibility: hidden;
+}
 /* Input */
 .Lform--login fieldset input[type=email]{
   transform:translatex(1116px) translatey(53px);
@@ -420,3 +424,19 @@ input, select, textarea{
  /* SignUp  */
 
 
+.imgforestCam{
+  display:inline-block;
+  transform:translatex(706px) translatey(-4px);
+  width:1167px;
+  height:590px;
+  box-shadow:none;
+  opacity:14%;
+}
+.imgforestCamz{
+  display:inline-block;
+  transform:translatex(706px) translatey(-4px);
+  width:1167px;
+  height:590px;
+  box-shadow:none;
+  opacity:27%;
+}

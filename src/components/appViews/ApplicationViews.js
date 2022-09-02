@@ -7,7 +7,6 @@ import { SpotEdit } from "../spotting/spottingEdit"
 import { SpotForm } from "../spotting/spottingForm"
 import { SpotList } from "../spotting/spottingList"
 import { Store } from "../store/store"
-import { Survival } from "../survival-101/survival"
 import { useState } from "react";
 
 
@@ -47,7 +46,6 @@ export const ApplicationViews = () => {
                 <Route path="/Spotting/:spotId/edit" element={ <SpotEdit /> } /> 
                 
                 <Route path="/store" element={ <Store /> } />
-                <Route path="/survival" element={ <Survival /> } />
                
     </Routes>
 }

@@ -2,26 +2,29 @@ import { Link } from "react-router-dom"
 import Main from "./Main"
 import './SassAttempt/background.scss'
 import '../components/SlideShow/styles.css'
+import AliceCarousel from 'react-alice-carousel';
+import "react-alice-carousel/lib/alice-carousel.css";
 
 
-const buttons = document.querySelectorAll("[data-carousel-button]")
 
-buttons.forEach(button => {
-  button.addEventListener("click", () => {
-    const offset = button.dataset.carouselButton === "next" ? 1 : -1
-    const slides = button
-      .closest("[data-carousel]")
-      .querySelector("[data-slides]")
+// const buttons = document.querySelectorAll("[data-carousel-button]")
 
-    const activeSlide = slides.querySelector("[data-active]")
-    let newIndex = [...slides.children].indexOf(activeSlide) + offset
-    if (newIndex < 0) newIndex = slides.children.length - 1
-    if (newIndex >= slides.children.length) newIndex = 0
+// buttons.forEach(button => {
+//   button.addEventListener("click", () => {
+//     const offset = button.dataset.carouselButton === "next" ? 1 : -1
+//     const slides = button
+//       .closest("[data-carousel]")
+//       .querySelector("[data-slides]")
 
-    slides.children[newIndex].dataset.active = true
-    delete activeSlide.dataset.active
-  })
-})
+//     const activeSlide = slides.querySelector("[data-active]")
+//     let newIndex = [...slides.children].indexOf(activeSlide) + offset
+//     if (newIndex < 0) newIndex = slides.children.length - 1
+//     if (newIndex >= slides.children.length) newIndex = 0
+
+//     slides.children[newIndex].dataset.active = true
+//     delete activeSlide.dataset.active
+//   })
+// })
 
 export const HomePage = () => {
 
@@ -33,8 +36,9 @@ export const HomePage = () => {
 
         <h1 className="mainTitle">MidEastern Whetherfleura</h1>
         <section className="mainContainer">
-
             
+
+        <img className= "imgforestCamz" src="https://i.ytimg.com/vi/N-od_jpIozg/maxresdefault.jpg" alt="Nature Image #1"/>
             
             
             <div class="firefly"></div>
@@ -53,8 +57,8 @@ export const HomePage = () => {
             <div class="firefly"></div>
             <div class="firefly"></div>
            
-            
-        
+
+      
         </section>
 
         {/* <section aria-label="Newest Photos">

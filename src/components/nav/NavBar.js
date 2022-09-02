@@ -32,18 +32,10 @@ export const NavBar = () => {
                 <span className="mask">Sightings</span>
                 <button className="bContents"><Link to= "/Spotting">Sightings</Link></button>
             </div>
-            <div className="button-container">
-                <span className="mask">Survival 101</span>
-                <button className="bContents"><Link to= "/survival">Survival 101</Link></button>
-            </div>
-            <div className="button-container">
-                <span className="mask">In-the-News</span>
-                <button className="bContents"><Link to= "/news">In-the-News</Link></button>
-            </div>
-            <div className="button-container">
+            {/* <div className="button-container">
                 <span className="mask">Store</span>
                 <button className="bContents"><Link to= "/store">Store</Link></button>
-            </div>
+            </div> */}
         </ul>
 
     )

@@ -16,21 +16,23 @@ export const About = () => {
         <h1 className="mainTitle">About</h1>
         <p>
             Not much is known about the Midwestern Whetherfleura.  What it looks like and how it lives are mysteries to us.  All that is known for certain is it's insatiable craving for canned soup; to which it's restraint knows no bounds...
+
         </p>
+        <img className="imgforestCam" src="https://i2-prod.dailystar.co.uk/incoming/article19184540.ece/ALTERNATES/s615b/creepy-video-1082871" alt="Nature Image #1"/>
         </div>
         </section>
             <div class="firefly"></div>
+            <div class="firefly">soup</div>
+            <div class="firefly"></div>
+            <div class="firefly">chicken</div>
+            <div class="firefly"></div>
+            <div class="firefly">tomato</div>
             <div class="firefly"></div>
             <div class="firefly"></div>
             <div class="firefly"></div>
+            <div class="firefly">soup</div>
             <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
+            <div class="firefly">spup</div>
             <div class="firefly"></div>
             <div class="firefly"></div>
             <div class="firefly"></div>
