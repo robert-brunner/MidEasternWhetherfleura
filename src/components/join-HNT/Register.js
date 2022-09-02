@@ -60,7 +60,7 @@ export const Register = (props) => {
     return (
         <main style={{ textAlign: "center" }}>
             <form className="Rform--login" onSubmit={handleRegister}>
-                <h1 className="RegisterSignIn">Sign-In</h1>
+                <h1 className="RegisterSignIn">Sign-Up</h1>
                 <fieldset>
                     <label htmlFor="RfullName"></label>
                     <input onChange={updateUser}
@@ -74,7 +74,7 @@ export const Register = (props) => {
                         placeholder="email" required />
                 </fieldset>
                 <fieldset>
-                    <button type="submit"> Join-the-Hunt </button>
+                    <button className="RformButton" type="submit"> Join-the-Hunt </button>
                 </fieldset>
             </form>
         </main>

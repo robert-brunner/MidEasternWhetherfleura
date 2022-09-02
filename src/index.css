@@ -129,13 +129,13 @@ input, select, textarea{
 #root ul{
   transform:translatex(-5px) translatey(-278px);
  }
- 
+ .mainTitle{
+  transform:translatex(-6px) translatey(-532px);
+ }
  /* Heading */
  #root h1{
-  transform:translatex(-6px) translatey(-532px);
-  font-size:46px;
+   font-size:46px;
   text-align:center;
-  text-shadow:rgb(0, 0, 0) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px, rgb(0, 0, 0) 1px 0px 1px, rgb(0, 0, 0) -1px 0px 1px;
   letter-spacing:1.8px;
  }
  
@@ -343,14 +343,11 @@ visibility: hidden;
   transform:translatex(1116px) translatey(53px);
  }
  
- /* Link */
-.Llink--register a{
-  transform:translatex(1081px) translatey(125px);
- }
+
  
  /* Button */
  .Lform--login fieldset button{
-  transform:translatex(1061px) translatey(85px);
+  transform:translatex(1061px) translatey(-30px);
  }
  
  /* Fieldset */
@@ -367,8 +364,8 @@ visibility: hidden;
 
   font-size:20px;
   position:relative;
-  bottom:-21px;
-  right: -86px;
+
+  transform:translatex(1150px) translatey(550px);
  }
  
 
@@ -404,6 +401,7 @@ visibility: hidden;
   position:relative;
   align-items: center;
   box-shadow:0px 0px 10px 1px #228504 inset;
+  transform:translatex(1108px) translatey(-50px);
  }
  
  .LoginTitle{
@@ -413,6 +411,7 @@ visibility: hidden;
   font-size:35px;
   text-shadow:rgb(12, 2, 2) 0px 0px 2px, rgb(26, 23, 11) 0px 0px 4px, rgb(69, 87, 3) 0px 0px 6px, rgb(11, 197, 57) 0px 0px 8px, rgb(31, 83, 48) 0px 0px 12px, rgb(20, 102, 61) 0px 0px 16px, rgb(88, 163, 1) 0px 0px 20px, rgb(238, 255, 4) 0px 0px 24px;
   line-height:33.4px;
+  transform:translatex(-7px) translatey(450px);
  }
 
 
@@ -440,3 +439,33 @@ visibility: hidden;
   box-shadow:none;
   opacity:27%;
 }
+
+/* Form Division */
+#root main form{
+  position:relative;
+  transform:translatex(-7px) translatey(500px);
+ }
+
+ .RegisterSignIn{
+  color:#eff460;
+  text-shadow:rgb(12, 2, 2) 0px 0px 2px, rgb(26, 23, 11) 0px 0px 4px, rgb(69, 87, 3) 0px 0px 6px, rgb(11, 197, 57) 0px 0px 8px, rgb(31, 83, 48) 0px 0px 12px, rgb(20, 102, 61) 0px 0px 16px, rgb(88, 163, 1) 0px 0px 20px, rgb(238, 255, 4) 0px 0px 24px;
+
+ }
+
+
+ .RformButton{
+  box-shadow:-3px 1px 20px 3px #0c0d0b inset;
+  position:relative;
+  color:#152107;
+  font-size:19px;
+  text-decoration:none;
+  font-weight:700;
+  text-shadow:rgb(255, 255, 255) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px;
+  letter-spacing:2.5px;
+  filter: invert(0.13) sepia(0.04);
+
+ }
+
+ #root main fieldset{
+  border-style:none;
+ }
