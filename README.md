@@ -14,9 +14,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-#You will also need to run a json-server locally. To do so;
+You will also need to run a json-server locally. To do so;
 
-..\whetherfleura-capstone/
+..\whetherfleura-capstone\
 ..\API\
 
 ### `json-server -p 8088 -w database.json`
