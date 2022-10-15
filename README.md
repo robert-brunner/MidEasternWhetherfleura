@@ -16,8 +16,8 @@ You may also see any lint errors in the console.
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 #You will also need to run a json-server locally. To do so;
 
-##..\whetherfleura-capstone/
-##..\API\
+..\whetherfleura-capstone/
+..\API\
 
 ### `json-server -p 8088 -w database.json`
 
