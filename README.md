@@ -1,22 +1,32 @@
-# Getting Started with Create React App
+Whetherfleura is a cryptid hunting web app
+built in two consecutive week-long sprints.
+Users can create an account and log in. Much
+like Nutshell, a user can create, read, update
+and Delete data in the form of "creature
+sightings." This project in its entirety was taken
+from storyboard concept to operational in 2
+weeks using React, JS, HTML, CSS, and SaSS. It
+used json-server, a mock RESTful API, for
+persistent storage.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Demo
 
-In the project directory, you can run:
+https://www.loom.com/share/aa4f7f6d6ce845e39d1dca4d8700a8a2
+
+## Setup
+
+Navigate to `/whetherfleura-capstone/src`
 
 ### `npm start`
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 You will also need to run a json-server locally. To do so;
 
-..\whetherfleura-capstone\
-..\API\
+../whetherfleura-capstone/
+../API/
 
 ### `json-server -p 8088 -w database.json`
 
